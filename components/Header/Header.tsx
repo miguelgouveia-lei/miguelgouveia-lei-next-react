@@ -10,6 +10,9 @@ export default function Header(){
         <nav className = {styles.nav}>
 
         <Link href="/">Home</Link>
+        <Link href="/produtos">Products</Link>
+        <Link href="/tecnologias">Technology</Link>
+
 
          </nav>
         </header>

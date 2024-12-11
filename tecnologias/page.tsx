@@ -1,6 +1,7 @@
 import React from 'react';
 import tecnologias from '@/app/data/tecnologias.json';
 import Card from '@/components/Card/card'
+import CardTec from '@/components/Card/cardTec';
 
 const Tecnologias = () => {
     return (
@@ -8,7 +9,7 @@ const Tecnologias = () => {
         <h1>Tecnologias</h1>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
           {tecnologias.map((tecnologia, index) => (
-            <Card
+            <CardTec
               key={index}
               title={tecnologia.title}
               image={tecnologia.image}
