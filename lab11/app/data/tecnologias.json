@@ -1,0 +1,74 @@
+[
+  {
+    "title": "HTML",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "description": "Linguagem de marcação usada para estruturar o conteúdo na web.",
+    "rating": 5
+  },
+  {
+    "title": "CSS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "description": "Linguagem de estilos usada para desenhar e estilizar páginas web.",
+    "rating": 5
+  },
+  {
+    "title": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "description": "Linguagem de programação usada para adicionar interatividade às páginas web.",
+    "rating": 5
+  },
+  {
+    "title": "JSON",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg",
+    "description": "Formato leve para troca de dados estruturados entre sistemas.",
+    "rating": 4
+  },
+  {
+    "title": "API RESTful",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/REST_API_logo.svg",
+    "description": "Padrão de arquitetura para comunicação entre sistemas na web.",
+    "rating": 4
+  },
+  {
+    "title": "Swagger",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png",
+    "description": "Ferramenta para documentar e testar APIs RESTful.",
+    "rating": 3
+  },
+  {
+    "title": "GitHub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+    "description": "Plataforma para controlo de versões e colaboração em projetos de software.",
+    "rating": 5
+  },
+  {
+    "title": "Codespaces",
+    "image": "https://user-images.githubusercontent.com/54741237/100623318-40b1d680-3329-11eb-9260-8cba63d3f041.png",
+    "description": "Ambiente de desenvolvimento baseado em cloud do GitHub.",
+    "rating": 3
+  },
+  {
+    "title": "GitHub Pages",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/GitHub_Pages_logo.svg",
+    "description": "Serviço do GitHub para alojar sites diretamente de repositórios.",
+    "rating": 4
+  },
+  {
+    "title": "React.js",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "description": "Biblioteca JavaScript para construir interfaces de utilizador.",
+    "rating": 5
+  },
+  {
+    "title": "Next.js",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+    "description": "Framework React para aplicações web modernas, com renderização no lado do servidor.",
+    "rating": 5
+  },
+  {
+    "title": "Vercel",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Vercel_logo_black.svg",
+    "description": "Plataforma para deployment rápido e escalável de aplicações web.",
+    "rating": 4
+  }
+]
