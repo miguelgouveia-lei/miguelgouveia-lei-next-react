@@ -1,6 +1,5 @@
 import React from 'react';
 import tecnologias from '@/app/data/tecnologias.json';
-import Card from '@/components/Card/card'
 import CardTec from '@/components/Card/cardTec';
 
 const Tecnologias = () => {

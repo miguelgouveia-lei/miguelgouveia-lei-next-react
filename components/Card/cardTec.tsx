@@ -11,8 +11,7 @@ import {Tecnologias} from '@/app/models/interfaces'
               <div className={styles.content}>
                 <h2 className={styles.title}>{title}</h2>
                 <p className={styles.description}>{description}</p>
-                <div className={styles.rating}>
-                </div>
+                <div className={styles.rating}>{rating}</div>
               </div>
             </div>
           );

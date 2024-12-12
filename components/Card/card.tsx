@@ -12,8 +12,7 @@ export default function Card({ title, price, description, image, rating}:Product
             <h2 className={styles.title}>{title}</h2>
             <p className={styles.price}>{price}</p>
             <p className={styles.description}>{description}</p>
-            <div className={styles.rating}>
-            </div>
+            <div className={styles.rating}>{rating.rate} </div>
           </div>
         </div>
       );
