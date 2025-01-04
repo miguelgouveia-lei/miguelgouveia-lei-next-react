@@ -1,0 +1,123 @@
+/* Título do carrinho */
+.cartTitle {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #eaeaea;
+}
+
+/* Itens do carrinho */
+.cartItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Contêiner principal do cesto */
+#cart {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1200px;
+  
+}
+
+
+
+  
+/* Texto quando o carrinho está vazio */
+.emptyCart {
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+  margin: 20px 0;
+}
+
+/* Resumo do carrinho */
+.cartSummary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10%;
+}
+
+/* Custo total */
+.totalCost {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.totalCostText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.studentDiscount {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.discountCode {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.discountCode input {
+  padding: 8px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Botão de compra */
+.purchaseButton {
+  padding: 12px 20px;
+  background: linear-gradient(90deg, #ff6f61, #d94e9f);
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.purchaseButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(90deg, #d94e9f, #ff6f61);
+}
+
+.purchaseButton:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Mensagem de confirmação */
+.confirmationMessage {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4caf50;
+  text-align: center;
+}

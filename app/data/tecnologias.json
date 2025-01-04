@@ -25,7 +25,7 @@
   },
   {
     "title": "API RESTful",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/REST_API_logo.svg",
+    "image": "https://www.freelancinggig.com/blog/wp-content/uploads/2018/11/Difference-Between-API-and-REST-API.png",
     "description": "Padrão de arquitetura para comunicação entre sistemas na web.",
     "rating": 4
   },
@@ -43,13 +43,13 @@
   },
   {
     "title": "Codespaces",
-    "image": "https://user-images.githubusercontent.com/54741237/100623318-40b1d680-3329-11eb-9260-8cba63d3f041.png",
+    "image": "https://github.githubassets.com/assets/codespaces-ga-individuals-a3d930da2750.jpg",
     "description": "Ambiente de desenvolvimento baseado em cloud do GitHub.",
     "rating": 3
   },
   {
     "title": "GitHub Pages",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/GitHub_Pages_logo.svg",
+    "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/collections/github-pages-examples/github-pages-examples.png",
     "description": "Serviço do GitHub para alojar sites diretamente de repositórios.",
     "rating": 4
   },
@@ -61,13 +61,13 @@
   },
   {
     "title": "Next.js",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+    "image": "https://i0.wp.com/d604h6pkko9r0.cloudfront.net/wp-content/uploads/2021/03/29113740/nextjs-cover-jpg-webp.webp?fit=1000%2C582&ssl=1",
     "description": "Framework React para aplicações web modernas, com renderização no lado do servidor.",
     "rating": 5
   },
   {
     "title": "Vercel",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Vercel_logo_black.svg",
+    "image": "https://images.ctfassets.net/c63hsprlvlya/1zUViz84vavghFDIK1qmlm/8be7ec39bf58472414e212d7547e7f8b/Vercel__Zeit_.jpeg?w=1200",
     "description": "Plataforma para deployment rápido e escalável de aplicações web.",
     "rating": 4
   }

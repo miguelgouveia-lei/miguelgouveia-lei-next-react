@@ -2,46 +2,98 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 
 body {
-  /* Box Model */
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: url('https://cdn.pixabay.com/photo/2018/02/26/13/17/abstraction-3183052_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
 
-  /* Layout e Posicionamento */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px;
+  
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  height: 500px;
+  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  margin-bottom: 50px;
+}
+
+main {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* Fundo e Estética */
-  background: url('https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat;
+  overflow-y: auto; /* Permite o scroll */
 }
 
-main {
-  /* Reset e Box Model */
-  width: 320px;
-  height: 450px;
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  gap: 20px;
+  width: 100%;
   padding: 20px;
-  border-radius: 20px;
   overflow-y: auto;
-
-  /* Fundo */
-  background: whitesmoke;
 }
+
+.products-container > * {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.products-container > *:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#searchInput {
+  padding: 12px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
