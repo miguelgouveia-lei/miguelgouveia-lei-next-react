@@ -8,7 +8,6 @@ import Cart from '@/components/Cart/cart';
 export default function Products() {
     const [search, setSearch] = useState("");
     const [sortOrder, setSortOrder] = useState("ascending"); // ascending ou descending
-    const [selectedCategory, setSelectedCategory] = useState("all"); // Categoria selecionada
     const [produtosFilt, setProdutosFilt] = useState<Product[]>([]);
     const [cart, setCart] = useState<Product[]>([]);
     const [isStudent, setIsStudent] = useState(false);
@@ -38,7 +37,7 @@ export default function Products() {
 
             setProdutosFilt(filteredProducts);
         }
-    }, [search, products, sortOrder, selectedCategory]);
+    }, [search, products, sortOrder]);
 
     useEffect(() => {
         const cart = localStorage.getItem("cart");
